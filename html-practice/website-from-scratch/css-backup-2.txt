@@ -1,0 +1,102 @@
+* {
+    /*border: 2px solid blueviolet;*/
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+.header {
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: "Hero", "Times New Roman";
+    width: 100%;
+}
+.header a {text-decoration: none; color: #F9FAF8; border: 2px solid red;}
+
+.button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button:hover { color: #3882F6; background-color: #F9FAF8;}
+.button:active { opacity: 0.5; }
+
+.intro-container {
+    border: 2px solid firebrick;
+    display: flex;
+    background-color: #1F2937;
+    gap: 2px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.intro-container > * {
+    color: #F9FAF8;
+    font-family: "Hero", "Times New Roman";
+    font-size: 24px;
+    flex-basis: 100%;
+    flex: 1 1 100%;
+    justify-content: space-between;
+}
+
+.intro-container .left {
+    border: 2px solid orange;
+    justify-items: center;
+    align-items: center;
+}
+
+.intro-container .right {
+    border: 2px solid cyan;
+    justify-items: center;
+    align-items: center;
+}
+
+.information-container {
+    border: 4px solid fuchsia;
+    display: flex;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    color: #1F2937;
+    font-family: "Hero", "Times New Roman";
+    font-size: 36px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.information-container .information-img, 
+.information-container .information-text{
+    flex: 1;
+    border: 4px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
